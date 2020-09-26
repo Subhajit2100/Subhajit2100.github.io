@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+
+<style>
+mark { 
+  background-color: yellow;
+  color: black;
+}
+
+</style>
+
+<style>
+markx { 
+  background-color:#FF0000;
+  color: black;
+}
+
+</style>
+
+<style>
+marky { 
+  background-color:#00FF00;
+  color: black;
+}
+
+</style>
+</head>
+
+
+<body bgcolor = #82CAFA>
+<center>
+<h1> Mark Entertenment </h1>
+<h2><u> Admission Form</u></h2>
+<h3><marky><marquee behavior="scroll" direction="left">ALL FIELDS ARE MANDETORY | PLEASE FILL CAREFULLY</marquee></marky></h3>
+</center>
+<h1>                 </h1><br><p>
+
+<form>
+
+<div class="column">
+<h2><u><mark>Applicaint Details -</mark></u></h2>
+
+<h3><label for="fname">Frist Name</label>
+<input type="text" id="fname" name="fname"><br><p>
+
+<label for="lname">Last Name&nbsp</label>
+<input type="text" id="lname" name="lname">
+</h3>
+<h3>Gender&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br><p>
+<label for="birthday">Birthday&nbsp&nbsp&nbsp&nbsp</label>
+<input type="date" id="birthday" name="birthday"></h3>
+<h3><label for="mail">Email&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+<input type="text" id="mail" name="mail"><br><p>
+<label for="phoneno">Mobile No.</label>
+<input type="number" id="phoneno" name="phoneno">
+</h3>
+<br>
+
+<h2><u><mark>Address Details -</mark> </u></h2>  
+<h3><u>Present Address</u><br><p>
+<label for="address">Address line 1</label>
+<input type="text" id="address" name="address"><br><p>
+
+<label for="address2">Address line 2</label>
+<input type="text" id="address2" name="address2"><br><p>
+
+<label for="address3">Town/City&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+<input type="text" id="address3" name="address3"><br><p>
+
+<label for="PS">Police Station&nbsp</label>
+<input type="text" id="PS" name="PS"><br><p>
+
+<label for="PO">Post Office&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+<input type="text" id="PO" name="PO"><br><p>
+
+<label for="address4">Landmark&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+<input type="text" id="address4" name="address4"><br><p>
+
+<label for="add3">State / Province / Region</label>
+  <select name="income" id="income">
+    <option value="one">WestBengal</option>
+    </select>
+    </h3>
+</div>
+
+<div class="column">
+    <h2><u><mark>Guardian Details - </mark></u></h2>
+	<h3><label for="faname">Father Name</label>
+	<input type="text" id="faname" name="faname"><br><p>
+
+	<label for="moname">Mother Name</label>
+	<input type="text" id="moname" name="moname"><br>
+	<p>
+	<label for="Gname">Gurdian Name(Father/ Husband)</label>
+	<input type="text" id="Gname" name="Gname"><br><p>
+
+<label for="gur">Relation with Guardian</label>
+  <select name="cars" id="cars">
+    <option value="father">Father</option>
+    <option value="Husband">Husband</option>
+  </select><br>
+  <p>
+<label for="occ">Guardian Occupation</label>
+<input type="text" id="occ" name="occ"><br>  
+
+<p>
+<label for="gur">Annual Income of you family</label>
+  <select name="income" id="income">
+    <option value="one">Below 1Lac</option>
+    <option value="two">1Lac - 2Lac</option>
+    <option value="three">2Lac - 4Lac</option>
+    <option value="four">Avobe 4 Lac</option>
+  </select>
+  </h3>
+  <h1>                                  </h1><br>
+   <h3>                                  </h3>
+    <h3><u>Permarent Address -</u><br><p>
+  <input type="checkbox" id="add" name="add" value="one">
+<label for="add"> Permarent address same as Present address</label><br><p>  
+
+<label for="address">Address line 1</label>
+<input type="text" id="address" name="address"><br><p>
+
+<label for="address2">Address line 2</label>
+<input type="text" id="address2" name="address2"><br><p>
+
+<label for="address3">Town/City&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+<input type="text" id="address3" name="address3"><br><p>
+
+<label for="PS">Police Station&nbsp</label>
+<input type="text" id="PS" name="PS"><br><p>
+
+<label for="PO">Post Office&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+<input type="text" id="PO" name="PO"><br><p>
+
+<label for="address4">Landmark&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+<input type="text" id="address4" name="address4"><br><p>
+
+<label for="add3">State / Province / Region</label>
+  <select name="income" id="income">
+    <option value="one">WestBengal</option>
+    </select>
+    <br><p></h3>
+    </div>
+    </form>
+    <form>
+<h3>    <input type="checkbox" id="add" name="add" value="one">
+<markx><label for="add"> I FILL THIS FORM CORRECTLY. IF ANY OF THE DETAILS WILL FAKE, I WILL BE RESPONSIBLE FOR THAT.</label><br><p></markx></h3>
+<h1><center><input type="submit" value="Submit"></center></h1>
+</form>
+</body>
+</html>
+
